@@ -5,6 +5,10 @@ class hello
     {
       Console.WriteLine("Hello Some");
     }
+    public void A()
+    {
+      Console.WriteLine("Print A");
+    }
 }
 class test
 {
