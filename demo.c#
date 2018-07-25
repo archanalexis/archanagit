@@ -9,6 +9,10 @@ class hello
     {
       Console.WriteLine("Print A");
     }
+    public void B()
+    {
+      Console.WriteLine("Print B");
+    }
 }
 class test
 {
