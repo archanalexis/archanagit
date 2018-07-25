@@ -17,6 +17,10 @@ class hello
     {
       Console.WriteLine("Print A+B");
     }
+    public void funDeleteCodes()
+    {
+      Console.WriteLine("Codes Deleted");
+    }
 }
 class test
 {
@@ -27,5 +31,6 @@ class test
     h.A();
     h.B();
     h.funInsertCodes();
+    h.funDeleteCodes();
   }
 }
