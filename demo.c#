@@ -13,6 +13,10 @@ class hello
     {
       Console.WriteLine("Print B");
     }
+    public void funInsertCodes()
+    {
+      Console.WriteLine("Print A+B");
+    }
 }
 class test
 {
@@ -20,5 +24,8 @@ class test
   {
     hello h = new hello();
     h.sm();
+    h.A();
+    h.B();
+    h.funInsertCodes();
   }
 }
