@@ -1,0 +1,16 @@
+class hello
+{
+    int a,b;
+    public void sm()
+    {
+      Console.WriteLine("Hello Some");
+    }
+}
+class test
+{
+  public static void main()
+  {
+    hello h = new hello();
+    h.sm();
+  }
+}
