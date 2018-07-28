@@ -13,3 +13,8 @@ class demo
     system.output.print("hello");
   }
 }
+class branch
+{
+}
+
+
