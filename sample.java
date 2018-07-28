@@ -15,6 +15,7 @@ class demo
 }
 class branch
 {
+ system.output.print("branch");
 }
 
 
