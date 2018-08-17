@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>LEXIS</groupId>
-    <artifactId>TEXAS</artifactId>
-    <version>3.0</version>
+    <groupId>JASON</groupId>
+    <artifactId>FRANCE</artifactId>
+    <version>1.0</version>
     <packaging>war</packaging>
     <name>LexisDevOps</name>
     <properties>
@@ -31,14 +31,14 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>TEXAS</id>
+            <id>FRANCE</id>
             <name>Internal Releases</name>
-            <url>http://18.188.223.86:8081/repository/maven-releases/</url>
+            <url>http://18.222.106.92:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>TEXAS</id>
+            <id>FRANCE</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://18.188.223.86:8081/repository/maven-snapshots/</url>
+            <url>http://18.222.106.92:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
